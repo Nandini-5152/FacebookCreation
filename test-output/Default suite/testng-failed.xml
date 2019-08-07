@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.pagescripts.ForgotAccPageScript">
+      <class name="com.automation.pagescripts.CreateAccPageScript">
         <methods>
+          <include name="birthdayCreadentials"/>
           <include name="initBro"/>
-          <include name="ForgotCredentials"/>
-          <include name="loads"/>
+          <include name="loading"/>
         </methods>
-      </class> <!-- com.automation.pagescripts.ForgotAccPageScript -->
+      </class> <!-- com.automation.pagescripts.CreateAccPageScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

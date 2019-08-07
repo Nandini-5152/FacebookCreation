@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19639" started-at="2019-08-06T10:10:23Z" finished-at="2019-08-06T10:10:42Z">
+  <suite name="Default suite" duration-ms="2455" started-at="2019-08-07T14:54:29Z" finished-at="2019-08-07T14:54:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19639" started-at="2019-08-06T10:10:23Z" finished-at="2019-08-06T10:10:42Z">
-      <class name="com.automation.pagescripts.ForgotAccPageScript">
-        <test-method status="PASS" signature="initBro()[pri:0, instance:com.automation.pagescripts.ForgotAccPageScript@f4468b]" name="initBro" is-config="true" duration-ms="16573" started-at="2019-08-06T15:40:06Z" finished-at="2019-08-06T15:40:23Z">
+    <test name="Default test" duration-ms="2455" started-at="2019-08-07T14:54:29Z" finished-at="2019-08-07T14:54:31Z">
+      <class name="com.automation.pagescripts.CreateAccPageScript">
+        <test-method status="PASS" signature="initBro()[pri:0, instance:com.automation.pagescripts.CreateAccPageScript@f4468b]" name="initBro" is-config="true" duration-ms="14741" started-at="2019-08-07T20:24:14Z" finished-at="2019-08-07T20:24:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBro -->
-        <test-method status="PASS" signature="loads()[pri:0, instance:com.automation.pagescripts.ForgotAccPageScript@f4468b]" name="loads" is-config="true" duration-ms="47" started-at="2019-08-06T15:40:23Z" finished-at="2019-08-06T15:40:23Z">
+        <test-method status="PASS" signature="loading()[pri:0, instance:com.automation.pagescripts.CreateAccPageScript@f4468b]" name="loading" is-config="true" duration-ms="35" started-at="2019-08-07T20:24:29Z" finished-at="2019-08-07T20:24:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loads -->
-        <test-method status="PASS" signature="ForgotCredentials()[pri:0, instance:com.automation.pagescripts.ForgotAccPageScript@f4468b]" name="ForgotCredentials" duration-ms="19563" started-at="2019-08-06T15:40:23Z" finished-at="2019-08-06T15:40:42Z">
+        </test-method> <!-- loading -->
+        <test-method status="PASS" signature="createAccCredentials()[pri:0, instance:com.automation.pagescripts.CreateAccPageScript@f4468b]" name="createAccCredentials" duration-ms="1428" started-at="2019-08-07T20:24:29Z" finished-at="2019-08-07T20:24:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ForgotCredentials -->
-      </class> <!-- com.automation.pagescripts.ForgotAccPageScript -->
+        </test-method> <!-- createAccCredentials -->
+        <test-method status="PASS" signature="birthdayCreadentials()[pri:0, instance:com.automation.pagescripts.CreateAccPageScript@f4468b]" name="birthdayCreadentials" duration-ms="968" started-at="2019-08-07T20:24:30Z" finished-at="2019-08-07T20:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birthdayCreadentials -->
+      </class> <!-- com.automation.pagescripts.CreateAccPageScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

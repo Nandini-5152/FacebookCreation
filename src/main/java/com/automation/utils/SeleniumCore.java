@@ -1,6 +1,7 @@
 package com.automation.utils;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import com.automation.base.BaseClass;
 
@@ -15,4 +16,8 @@ public class SeleniumCore extends BaseClass{
 		element.click();
 	}
 	
+	public void selectEle(WebElement element,String text){
+		Select sel = new Select(element);
+		sel.selectByVisibleText(text);
+	}
 }
